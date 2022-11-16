@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    cursor: none;
+    text-align: center;
+}
+.cursor{
+    background-color: rgb(202, 57, 57);
+    width:  3rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate("-50, -50");
+    pointer-events: none;
+}
+
+.h1{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
